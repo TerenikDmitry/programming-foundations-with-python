@@ -8,7 +8,6 @@ main_page_head = '''
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
     <title>TerenikFilms!</title>
 
     <!-- Bootstrap 3 -->
@@ -57,7 +56,7 @@ main_page_head = '''
             background-color: white;
         }
     </style>
-    <script type="text/javascript" charset="utf-8">
+    <script type="text/javascript">
         // Pause the video when the modal is closed
         $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
             // Remove the src so the player itself gets removed, as this is the only
